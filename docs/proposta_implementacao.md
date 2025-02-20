@@ -1,10 +1,8 @@
-Explicação de como cada tecnologia será usada no sistema.
+- Detalhamento referente as tecnologias aplicadas na implementação do sistema:
 
-Principais etapas de implementação, incluindo:
+- Principais etapas de implementação, incluindo:
 
-Cadastro de usuário → Hash de senha com bcrypt.
-Login → Geração e verificação de Token JWT.
-Criptografia de mensagens → Uso de AES (CBC).
-Proteção da chave AES → Uso de RSA para criptografar a chave antes de armazená-la.
-
-Breve explicação sobre armazenamento seguro de dados.
+1. Cadastro de usuário → Hash de senha com bcrypt.
+2. Login → Geração e verificação de Token JWT.
+3. Criptografia de mensagens → Uso de AES (CBC).
+4. Proteção da chave AES → Uso de RSA para criptografar a chave antes de armazená-la.
